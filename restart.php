@@ -18,4 +18,4 @@ else{
 	$zteF609->reboot();
 }
 
-@unset("cookie.txt");
+@unlink("cookie.txt");
